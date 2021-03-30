@@ -1,4 +1,5 @@
 import React from 'react';
+import BeerCard from './BeerCard';
 class Beer extends React.Component {
 //   constructor(props) {
 //     super(props);
@@ -14,7 +15,7 @@ class Beer extends React.Component {
         </div>
         
         <div className="beer-content">
-          <div className="beer-content"></div>
+          <BeerCard name='Flip Flop'/>  
         </div>
       </div>
     );
