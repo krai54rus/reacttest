@@ -13,9 +13,9 @@ class Beer extends React.Component {
           <div className="beer-header-title">IPA</div>
           <div className="beer-header-title">Эли</div>
         </div>
-        
+
         <div className="beer-content">
-          <BeerCard name='Flip Flop'/>  
+          <BeerCard name='Flip Flop'/>
         </div>
       </div>
     );
